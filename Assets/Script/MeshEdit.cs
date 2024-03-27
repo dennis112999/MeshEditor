@@ -24,7 +24,7 @@ namespace MeshEditor
         [Tooltip("ハンドルサイズ")]
         public float handleSize = 0.03f;
         [Tooltip("ハンドルの色")]
-        public Color handleColor;
+        public Color handleColor = Color.blue;
 
         [HideInInspector]
         public bool moveVertexPoint = true;
